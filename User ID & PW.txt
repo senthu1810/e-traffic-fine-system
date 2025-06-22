@@ -1,0 +1,16 @@
+Make sure you connected to the  internet to make sure bootstrapt model work properly
+
+user id [admin]  -  admin
+Password (All) -  admin123
+
+user id [police]  -  police01@gmail.com 
+Password (All) -  Police01
+
+user id [police]  -  police02@gmail.com 
+Password (All) -  Police02
+
+user id [user]  -  test02@gmail.com 
+Password (All) -  Test02
+
+user id [user]  -  test03@gmail.com 
+Password (All) -  Test03

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Police Registration - E-Challan</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h2 {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    form input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      outline: none;
+      transition: border 0.3s ease;
+    }
+
+    form input:focus {
+      border: 1px solid #2575fc;
+    }
+
+    form button {
+      background-color: #2575fc;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    form button:hover {
+      background-color: #1a62c7;
+    }
+
+    form p {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    form p a {
+      color: #2575fc;
+      text-decoration: none;
+    }
+
+    form p a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>Police Officer Registration</h2>
+    <form action="php/register_police.php" method="POST">
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <input type="text" name="last_name" placeholder="Last Name" required>
+      <input type="text" name="nic" placeholder="NIC Number" required>
+      <input type="text" name="job_id" placeholder="Job ID" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="mobile" placeholder="Mobile No" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="text" name="security_q1" placeholder="What is your badge number?" required>
+      <input type="text" name="security_q2" placeholder="What city were you born in?" required>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
