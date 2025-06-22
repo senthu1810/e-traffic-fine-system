@@ -57,7 +57,7 @@ The E-Traffic Fine System is a full-stack web application designed to digitize t
 4.	Import the MySQL database (database.sql) using phpMyAdmin
 5.	Update php/config.php with your local DB credentials.
 6.	Start Apache and MySQL from XAMPP and go to:
-7.	http://localhost/e-traffic-fine-system/
+7.	http://localhost/e-traffic-fine-system/index.html
 
 🧑💻 Author
 •	Developed by Rasaiah Senthuran (HND- IT )  SLIATE
